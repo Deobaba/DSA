@@ -6,7 +6,7 @@
 
 function titleCase (sentence){
 
-    let sentencesplit = sentence.split(' ')
+    let sentencesplit = sentence.toLowerCase().split(' ')
 
     for (let i = 0; i < sentencesplit.length; i++){
         sentencesplit[i] = sentencesplit[i][0].toUpperCase() + sentencesplit[i].slice(1)
@@ -17,5 +17,8 @@ function titleCase (sentence){
 }
 
 let test = titleCase("I'm a little tea pot")
+ 
+let test2 = titleCase('sHoRt AnD sToUt'); // Short And Stout
+let test3 = titleCase('HERE IS MY HANDLE HERE IS MY SPOUT')
 
-console.log(test)
+console.log(test,"...",test2,"...",test3)
