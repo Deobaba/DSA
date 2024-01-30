@@ -25,6 +25,6 @@ function findMaxNumber2 (data){
 
 
 
-let test = findMaxNumber([1,11,4,5,11,7,8,9,21])
+let test = findMaxNumber([1,11,4,34,11,7,8,9,21])
 let test2 = findMaxNumber2([1,11,4,5,11,7,8,9,21])
 console.log(test,test2)

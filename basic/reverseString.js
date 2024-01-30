@@ -25,5 +25,5 @@ function reverseString (data) {
 
 }
 
-const test = reverseString('hello')
+const test = reverseString('lo')
 console.log(test)
